@@ -1,0 +1,103 @@
+github.txt for learning_dart 
+
+GitHub, Git
+
+https://github.com/
+http://www.codeschool.com/courses/try-git
+http://git-scm.com/videos
+http://www.ralfebert.de/blog/tools/git_screencast/
+http://marklodato.github.com/visual-git-guide/index-en.html
+
+Education
+
+https://github.com/edu
+
+Start
+
+create an account at GitHub
+install Git
+  https://help.github.com/articles/set-up-git
+  do not use the green button
+  use "Download and install the latest version of Git."
+  do not use "Password caching"
+
+-------------------------------------------------------------------------------
+
+After creating an account, create a remote repository.
+
+https://help.github.com/articles/creating-a-new-repository
+
+Create a New Repo at GitHub 
+(without README, since cloning will not be used).
+Repository Name: learning_dart
+Description: 
+  Examples to learn Dart.
+      
+Next steps:
+  cd git/dart/educ/learning_dart
+  git init
+  git status
+  git add .
+  git commit -m 'initial version'
+  git remote add origin https://github.com/dzenanr/learning_dart.git
+  git push -u origin master     
+
+-------------------------------------------------------------------------------
+
+Git with Git Bash
+
+Clone a remote repository into a local repository.
+
+cd git/dart/educ
+git clone https://github.com/dzenanr/learning_dart.git
+cd learning_dart
+
+Read+Write:
+https://github.com/dzenanr/learning_dart.git
+
+Read only:
+git://github.com/dzenanr/learning_dart.git
+
+Get the latest changes from the remote repository
+
+git pull
+
+-------------------------------------------------------------------------------
+
+Work with a local repository
+
+cd git/dart/educ/learning_dart
+
+git status
+
+git add .
+
+git status
+
+git commit -m 'short description'
+
+git status
+
+git rm file
+
+git status
+
+git push
+
+git status
+
+-------------------------------------------------------------------------------
+
+Tagging for versions (spirals)
+
+http://learn.github.com/p/tagging.html
+
+git tag
+git tag -a s00 -m 'spiral 00'
+git tag
+
+To push tags to the remote repository:
+
+git push --tags
+
+-------------------------------------------------------------------------------

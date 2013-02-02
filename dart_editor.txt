@@ -1,0 +1,25 @@
+dart_editor.txt for learning_dart
+
+Dart
+
+http://www.dartlang.org/
+
+Dart Editor
+
+http://www.dartlang.org/docs/editor/
+
+Start
+
+http://www.dartlang.org/docs/editor/getting-started/
+http://www.dartlang.org/docs/editor/getting-started/#download
+
+  Download Java JRE 64-bit
+  http://www.oracle.com/technetwork/java/javase/downloads/index.html
+  click on JRE Download
+  Windows x64  *.exe
+
+  Download 64-bit Dart Editor
+  copy the jre7 folder into the dart folder of Dart Editor
+  rename jre7 to jre
+  run DartEditor.exe
+  
