@@ -1,0 +1,9 @@
+gitignore
+
+https://help.github.com/articles/ignoring-files
+
+https://github.com/github/gitignore
+
+Mac
+
+http://stackoverflow.com/questions/11197249/show-system-files-show-git-ignore-in-osx
