@@ -1,0 +1,35 @@
+
+body {
+  background-color: #f8f8f8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+h1, p {
+  color: #333333;
+}
+
+input {
+  padding: 2px;
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+  padding: 4px;
+  font-size: 18px;
+}
+
+.target li {
+  background: url(img/target.gif) no-repeat 0 50%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 18px;
+} 
+
+
+
+

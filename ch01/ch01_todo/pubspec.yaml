@@ -1,0 +1,5 @@
+name: ch01_todo
+author: Ivo Balbaert
+description: A sample web application
+dependencies:
+  browser: any

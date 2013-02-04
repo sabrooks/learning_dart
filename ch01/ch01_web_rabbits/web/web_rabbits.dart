@@ -20,6 +20,6 @@ webRabbits() {
 }
 
 void main() {
-  query("#submit").onClick.listen( (e) => webRabbits() );
+  query("#submit").onClick.listen((e) => webRabbits());
 }
 
