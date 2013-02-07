@@ -6,7 +6,7 @@
 Examples to learn Dart.
 
 **Start**:
-Clone the project and open one of folders with Dart Editor. 
+Clone the project and open a chapter folder with Dart Editor. 
 
 
 

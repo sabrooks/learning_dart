@@ -19,6 +19,7 @@ install Git
   https://help.github.com/articles/set-up-git
   do not use the green button
   use "Download and install the latest version of Git."
+  configure in git your name and email 
   do not use "Password caching"
 
 -------------------------------------------------------------------------------
@@ -79,6 +80,7 @@ git commit -m 'short description'
 git status
 
 git rm file
+git rm -r folder with subfolders and files
 
 git status
 
