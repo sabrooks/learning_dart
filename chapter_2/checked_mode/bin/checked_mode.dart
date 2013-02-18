@@ -1,4 +1,5 @@
+// remove // to see warning
 void main() {
-  int age = 'Dart';
-  print('$age');
+//  int age = 'Dart';
+//  print('$age');
 }
