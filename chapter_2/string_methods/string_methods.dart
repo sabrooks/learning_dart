@@ -33,10 +33,10 @@ main() {
 
 // use StringBuffer instead of frequent concatenation
   var sb = new StringBuffer();
-  sb.add("Use a StringBuffer ");
-  sb.addAll(["for ", "efficient ", "string ", "creation "]);
-  sb.add("if you are ");
-  sb.add("building lots of strings.");
+  sb.write("Use a StringBuffer ");
+  sb.writeAll(["for ", "efficient ", "string ", "creation "]);
+  sb.write("if you are ");
+  sb.write("building lots of strings.");
   var fullString = sb.toString();
   print('$fullString');
   assert(fullString ==
