@@ -21,4 +21,6 @@ void main() {
   langs2[2] = "JavaScript";
   print(langs2); // [C, C#, JavaScript]
   // langs2[4] = "F#";  // RangeError !
+//  var langs3 = new List.fixedLength(4, "Dart");
+//  print(langs3);
 }

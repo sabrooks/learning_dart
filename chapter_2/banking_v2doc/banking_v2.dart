@@ -35,8 +35,6 @@ class BankAccount {
     dateModified = new DateTime.now();
   }
 
-  String toString() {
-    return 'Bank account from $owner with number $number'
-               ' and balance $balance';
-  }
+    String toString() => 'Bank account from $owner with number $number'
+        ' and balance $balance';
 }
