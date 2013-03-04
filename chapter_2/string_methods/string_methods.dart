@@ -42,7 +42,7 @@ main() {
   assert(fullString ==
       'Use a StringBuffer for efficient string creation '
       'if you are building lots of strings.');
-  sb = new StringBuffer();
+  sb = new StringBuffer();  // sb is empty again
   assert(sb.toString() == '');
 // splitting a String:
   var number = "075-0623456-72";

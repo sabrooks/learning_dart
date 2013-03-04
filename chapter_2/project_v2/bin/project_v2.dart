@@ -15,9 +15,8 @@ class Project {
 
   String get name => _name.toUpperCase();
   set name(String prName) {
-    if (prName.length > 20) {
+    if (prName.length > 20)
       throw 'Only 20 characters or less in project name';
-    }
     _name = prName;
   }
 
