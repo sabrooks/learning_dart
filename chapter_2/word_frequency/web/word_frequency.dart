@@ -25,8 +25,7 @@ void main() {
 }
 
 List fromTextToWords(String text) {
-  var regexp = new RegExp("[,;:.?!()'`’“\"\n]");
-  //var regexp = new RegExp('\W+');
+  var regexp = new RegExp('\W+');
   var textWithout = text.replaceAll(regexp, '');
   return textWithout.split(' ');
 }

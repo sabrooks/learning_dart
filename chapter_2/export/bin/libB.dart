@@ -1,4 +1,5 @@
-library libB;
-import 'libA.dart';
-export 'libA.dart' show abc;
+library libb;
+
+import 'liba.dart';
+export 'liba.dart' show abc;
 

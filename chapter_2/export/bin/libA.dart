@@ -1,4 +1,5 @@
-library libA;
-abc() => 'abc from libA';
-xyz() => 'xyz from libA';
+library liba;
+
+abc() => 'abc from liba';
+xyz() => 'xyz from liba';
 

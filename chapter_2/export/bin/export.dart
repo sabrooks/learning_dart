@@ -1,6 +1,7 @@
-import 'libB.dart';
+import 'libb.dart';
 
 void main() {
-  abc();
+  print('${abc()}'); // abc from liba
   // xyz();  // cannot resolve method 'xyz'
 }
+
