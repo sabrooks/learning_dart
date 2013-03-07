@@ -8,7 +8,7 @@ void main() {
   print('$s1'); // abcdef
   String multiLine = '''
     <h1> Beautiful page </h1>
-    <div class="start"> This is a story about the landing 
+    <div class="start"> This is a story about the landing
        on the moon </div>
     <hr>
   ''';

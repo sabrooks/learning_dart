@@ -1,4 +1,6 @@
 void main() {
+// if you want to see line 25 (langs2.add(42);) in runtime mode, 
+// uncomment and uncheck Run in checked mode  
 // lists:
   var date = new DateTime.now();
   // untyped List:
@@ -20,7 +22,7 @@ void main() {
   langs2.add("Python");
   langs2.add("Ruby");
   langs2.add("Dart");
-  langs2.add(42);
+  // langs2.add(42);
   print('${langs2 is List}'); // true
   print('${langs2 is List<String>}'); // true
   print('${langs2 is List<double>}'); // false
@@ -51,3 +53,4 @@ void main() {
 
 
 }
+
