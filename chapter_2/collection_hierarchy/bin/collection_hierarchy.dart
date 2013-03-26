@@ -1,4 +1,5 @@
 import 'dart:collection';
+import 'dart:math' as Math;
 
 void main() {
   var digits = new Iterable.generate(10, (i) => i);
@@ -40,7 +41,7 @@ void main() {
   // evens = digList.where( (i) => i.isEven );
   print('$evens');  // [0, 2, 4, 6, 8]
   // mapping:
-  var triples = digList.map((i) => 3 * i).toList();
+  var triples = digList.map((i) => 3 * i).toList().toList();
   print('$triples'); // [0, 3, 6, 9, 12, 15, 18, 21, 24, 27]
   // calculate sum with for-loop:
   var sum = 0;
@@ -52,13 +53,19 @@ void main() {
   var sum2 = digList.reduce(0, (prev, i) => prev + i);
   print('$sum2'); // 45
   // minimum and maximum of a List:
-  var min = digList.min();
-  print('$min'); // 0
-  var max = digList.max();
-  print('$max'); // 9
+  var min = digList.reduce(digList.first, Math.min); 
+  print('minimum: $min'); // 0
+  var max = digList.reduce(digList.first, Math.max); 
+  print('maximum: $max'); // 9
+  // sorting a List:
   var lst = [17, 3, -7, 42, 1000, 90];
   lst.sort();
   print('$lst'); [-7, 3, 17, 42, 90, 1000];
+  // minimum and maximum of a List
+  var lstS = ['heg', 'wyf', 'abc'];
+  var minS = lstS.reduce(lstS.first, (s1,s2) => s1.compareTo(s2) < 0 ? s1 : s2); 
+  print('minimumstring: $minS'); // abc
+  // sorting a List of Persons:
   var p1 = new Person('Peeters Kris');
   var p2 = new Person('Obama Barak');
   var p3 = new Person('Poetin Vladimir');
@@ -67,6 +74,10 @@ void main() {
   // pList.sort();
   // type 'Person' is not a subtype of type 'Comparable' of 'a'.
   // (1) Person implements interface Comparable:
+  var minP = pList.reduce(pList.first, (s1,s2) => s1.compareTo(s2) < 0 ? s1 : s2); 
+  print('minimum Person: ${minP.name}'); // Lincoln Abraham
+  var maxP = pList.reduce(pList.first, (s1,s2) => s1.compareTo(s2) < 0 ? s2 : s1); 
+  print('maximum Person: ${maxP.name}'); // Poetin Vladimir
   pList.sort();
   pList.forEach((p) => print('${p.name}'));
   // prints on successive lines:
@@ -102,3 +113,4 @@ class Person implements Comparable{
   // many other properties and methods
   compareTo(Person p) => name.compareTo(p.name);
 }
+
