@@ -113,4 +113,3 @@ class Person implements Comparable{
   // many other properties and methods
   compareTo(Person p) => name.compareTo(p.name);
 }
-

@@ -2,8 +2,8 @@ import 'dart:html';
 
 void main() {
 // binding to the user interface:
-  var textArea = query('#text');
-  var wordsArea = query('#words');
+  TextAreaElement textArea = query('#text');
+  TextAreaElement wordsArea = query('#words');
   var wordsBtn = query('#frequency');
   var clearBtn = query('#clear');
 
